@@ -1,0 +1,93 @@
+.formPage {
+  background-color: #ff1493;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: 10vh 0;
+}
+
+.formTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.clsBtn {
+  background-color: #ff1493;
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.clsBtn:hover {
+  color: #ff1493;
+  background-color: #fff;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftPart {
+  flex: 1;
+  text-align: center;
+}
+
+.rightPart {
+  flex: 1;
+}
+
+#image {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.input {
+  margin: 70px 0;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  background-color: #ff1493;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#bookBtn {
+  background-color: #ff1493;
+  color: white;
+  font-weight: 800;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#bookBtn:hover {
+  background-color: #fff;
+  color: #ff1493;
+  border-color: #ff1493;
+}
+
+@media only screen and (max-width: 620px) {
+  .form {
+    display: block;
+  }
+}

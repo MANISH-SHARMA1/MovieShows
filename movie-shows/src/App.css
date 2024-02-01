@@ -1,0 +1,63 @@
+.nav {
+  background-color: #ff1493;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.movie {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-list {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.movie-list::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-summary {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.movie-summary::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background-color: #ff1493;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  margin: 15px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+#imgg {
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+  .movie {
+    display: block;
+  }
+  .movie-list{
+    margin-left: 22.5vw ;
+  }
+}
+

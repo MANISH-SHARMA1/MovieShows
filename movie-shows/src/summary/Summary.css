@@ -1,0 +1,94 @@
+.summarySection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow-y: scroll;
+  gap: 10px;
+}
+
+.summarySection::-webkit-scrollbar {
+  display: none;
+}
+
+.imgSection {
+  text-align: center;
+}
+
+#name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff1493;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.infoCard {
+  width: 280px;
+  height: 360px;
+  border-radius: 5px;
+  background-color: #ff1493;
+  color: #fff;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.infoHeading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.infoBody {
+  text-align: left;
+  margin: 10vh 0;
+}
+
+#img {
+  width: 280px;
+  height: 360px;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: yellow;
+}
+
+#ticketBtn {
+  background-color: #ff1493;
+  color: white;
+  font-weight: 800;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#ticketBtn:hover {
+  background-color: #fff;
+  color: #ff1493;
+  border-color: #ff1493;
+}
+
+.summary {
+  color: #ff1493;
+  font-weight: bold;
+  width: 50vw;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  .summary {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .summarySection {
+    display: block;
+  }
+
+  .infoCard {
+    margin: 10px auto;
+  }
+}
